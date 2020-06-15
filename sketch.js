@@ -61,9 +61,12 @@ function draw(){
   }
 
 
+
   background(21, 22, 36);
   textSize(25);
   noStroke();
+  fill(100);
+  text("click anywhere for sound", width/2-150, 200);
   fill(180);
   text('max score:', 10, 30);
   text('generation:', 10, 85);
